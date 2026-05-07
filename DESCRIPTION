@@ -1,29 +1,66 @@
 Package: EasyFlow2
-Title: What the Package Does (One Line, Title Case)
+Title: Streamlined Flow Cytometry Analysis Workflow
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R:
+    person("Yantong", "Wan", email = "wytsmu@163.com", role = c("aut", "cre"))
+Description: Provides an end-to-end flow cytometry workflow for FCS preprocessing,
+    interactive gating, dimensionality reduction, clustering, cell-type annotation,
+    atlas projection, publication-ready visualization, abundance statistics,
+    trajectory analysis, FCS export, and HTML reporting.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Imports: 
+Depends:
+    R (>= 4.1.0)
+Imports:
+    cowplot,
     dplyr,
     flowCore,
+    ggalluvial,
     ggplot2,
     ggpubr,
+    ggrepel,
     ggridges,
+    grDevices,
+    graphics,
+    httr2,
     igraph,
+    jsonlite,
+    magrittr,
+    MASS,
     miniUI,
+    patchwork,
     pheatmap,
     plotly,
     RANN,
+    ranger,
     RColorBrewer,
+    reshape2,
+    rmarkdown,
     Rtsne,
-    scales,
     shiny,
-    stringr
+    stats,
+    tidyr,
+    utils,
+    uwot
+Suggests:
+    Biobase,
+    BiocManager,
+    broom,
+    DT,
+    FlowSOM,
+    flowStats,
+    hexbin,
+    htmltools,
+    knitr,
+    S4Vectors,
+    SingleCellExperiment,
+    slingshot,
+    viridis
+Enhances:
+    broom.mixed,
+    lmerTest
 URL: https://github.com/yantongwan/EasyFlow2
 BugReports: https://github.com/yantongwan/EasyFlow2/issues
+VignetteBuilder: knitr

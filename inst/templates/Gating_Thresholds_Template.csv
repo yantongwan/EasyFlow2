@@ -1,0 +1,13 @@
+"Tree_Node","Channel","Min_Threshold","Max_Threshold"
+"cell_live_cell_CD4","FSC-A",45578.655,140888.688
+"cell_live_cell_CD4","SSC-A",16414.277,104489.793
+"cell_live_cell_CD4","TNFa",-0.428,4.584
+"cell_live_cell_CD4","Foxp3",-1.139,2.724
+"cell_live_cell_CD4","CD103",0.304,3.998
+"cell_live_cell_CD4","CD4",3.178,5.153
+"cell_live_cell_CD4","GM-CSF",0.008,2.884
+"cell_live_cell_CD4","IL6",1.011,3.796
+"cell_live_cell_CD4","IL17a",-0.492,5.135
+"cell_live_cell_CD4","IFNg",-0.202,3.654
+"cell_live_cell_CD4","IL10",-0.527,1.288
+"cell_live_cell_CD4","L/D",-1.018,2.573
